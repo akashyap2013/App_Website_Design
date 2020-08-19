@@ -1,0 +1,32 @@
+/*
+    Template: Main Style.file
+*/
+
+// > npm init
+// > npm install sass
+// > npm i bootstrap
+// > npm i jquery
+// > npm install --save @fortawesome/fontawesome-free
+// > npm i --save owl.carousel
+
+/* BOOTSTRAP FILES */
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito&display=swap');
+
+/* OWL CAROUSEL */
+@import '../node_modules/owl.carousel/src/scss/owl.carousel.scss';
+@import '../node_modules/owl.carousel/src/scss/owl.theme.default.scss';
+
+
+/* TEMPLATE FILES */
+@import './include/variables';
+@import './include/global';
+@import './include/header';
+@import './include/banner';
+@import './include/tech';
+@import './include/security';
+@import './include/favourite';
+@import './include/footer';
+

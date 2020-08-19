@@ -1,0 +1,23 @@
+{
+  "name": "app-website",
+  "version": "1.0.0",
+  "description": "android app website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "website",
+    "responsive",
+    "website"
+  ],
+  "author": "akshay kashyap",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "owl.carousel": "^2.3.4",
+    "sass": "^1.26.10"
+  }
+}

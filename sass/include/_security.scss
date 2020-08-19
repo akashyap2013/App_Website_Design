@@ -1,0 +1,31 @@
+/*
+    SECURITY    
+*/
+
+#security{
+    background-color: $dark;
+    color: white;
+    margin: 3rem 0rem;
+    .owl-carousel{
+        .item > .item-title{
+            > a{
+                text-decoration: none;
+                color: white;
+            }
+            .d-flex > a{
+                color: white !important;
+            }
+        }
+        .owl-nav{
+            margin-top: 4rem;
+            button span{
+                padding: .4rem 3rem;
+                color: $dark;
+                &:hover{
+                    background-color: $secondary;
+                    color: white;
+                }
+            }
+        }
+    }
+}

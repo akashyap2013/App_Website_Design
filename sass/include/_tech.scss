@@ -1,0 +1,49 @@
+/*
+    TECHNOLOGY 
+*/
+
+#tech, #security, #favourite{
+    padding: 3rem 0;
+
+    .owl-carousel{
+         .item{
+            .item-title{
+                > a {
+                    text-decoration: none;
+                    color: $dark;
+                }
+                > .d-flex{
+                    > img{
+                        width: 30px;
+                        margin-right: .5rem;
+                    }
+                    > a, i, span{
+                        padding: .2rem;
+                        text-decoration: none;
+                        font-size: .9rem;
+                    }
+                }
+            }
+        }
+
+        .owl-nav{
+            margin-top: 2rem;
+            button{
+                &:focus, &:hover{
+                    outline: none;
+                    box-shadow: none;
+                    background-color: transparent;
+                }
+            }
+            button span{
+                background-color: $light;
+                padding: .4rem 3rem;
+                border-radius: 3rem;
+                &:hover{
+                    background-color: $dark;
+                }
+            }
+        }
+    }
+
+}

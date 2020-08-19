@@ -1,0 +1,43 @@
+/*
+    GLOBLE CLASSES FILE
+*/
+
+.font-nun{
+    font-family: $nun;
+    font-weight: bold;
+}
+
+.font-size-1{
+    font-size: 0.8rem;
+}
+
+.font-size-2{
+    font-size: 1.9rem;
+}
+
+.font-size-3{
+    font-size: 3rem;
+}
+
+.left-border{
+    border-left: 8px solid $teal;
+    padding-left: 1rem;
+}
+
+.img-hover{
+    overflow: hidden;
+    img{
+        transform: scale(1);
+        transition: transform .5s ease;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}
+
+
+.width-lg-50{
+    @media screen and (min-width: 992px){
+        width: 200px;
+    }   
+}

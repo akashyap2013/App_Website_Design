@@ -1,0 +1,30 @@
+
+body{
+    font-family: $inter;
+    background-image: url(../../assets/site_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#header{
+    .top{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999; 
+    }
+    .navbar{
+        .collapse{
+            .nav-item{
+                padding: 0 .4rem;
+                > a{
+                    color: white !important;
+                }
+            }
+        }
+        @media screen and (max-width: 992px){
+           background-color: $purple;
+        }
+    }
+
+}

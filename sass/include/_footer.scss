@@ -1,0 +1,49 @@
+/*
+    FOOTER 
+*/
+
+#footer{
+    padding: 3rem 0;
+    background-image: url(../../assets/backgroundimg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40% 90%;
+
+    .company{
+        .d-flex > a{
+            text-decoration: none;
+            color: $dark;
+            font-size: .9rem;
+            margin: .3rem 0;
+            &:hover{
+                color: $purple;
+            }
+        }
+    }
+    .newsletter{
+        padding: 3rem;
+        > .d-flex input.form-control{
+            border: none;
+            width: 200px;
+            font-size: 1rem;
+            margin: .8rem 0;
+            background-color: $light;
+            border-radius: 4rem;
+            &::placeholder{
+                font-size: .8rem;
+                padding: 0 1rem;
+            }
+        }
+        > button{
+            background-color: $dark;
+            color: white;
+            padding: .3rem 1.5rem;
+            border-radius: 4rem;
+            font-size: .8rem;
+            &:hover{
+                background-color: $purple;
+                
+            }
+        }
+    }
+}
